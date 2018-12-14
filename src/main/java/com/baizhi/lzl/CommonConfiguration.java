@@ -10,6 +10,12 @@ import java.io.File;
 
 @Configuration
 public class CommonConfiguration {
+    
+    
+    
+    
+    
+    
     @Bean
     public EmbeddedServletContainerFactory embeddedServletContainerFactory() {
         ConfigurableEmbeddedServletContainer factory = new TomcatEmbeddedServletContainerFactory();
